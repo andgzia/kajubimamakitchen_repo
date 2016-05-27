@@ -5,12 +5,14 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family:helvetica;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
+}
+.headerlogo{justify-content: center;
 }
 article,
 aside,
@@ -6758,3 +6760,34 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+.row {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap:1em; 
+  
+}
+
+.item {
+ display: inline-block;
+ padding:  10px;
+ width:  100%; 
+}
+
+.well {
+ position:relative;
+ padding-left: 5px;
+ width: auto;
+ display:block;
+ background-color:beige;
+}
+
+.header-logo{
+                margin-left:auto;
+                margin-right: auto;
+                display: table;
+            }
