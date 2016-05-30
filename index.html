@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <title>KajubiMamaKitchen
-        </title>
+        <title>KajubiMamaKitchen</title>
+    
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Advent+Pro:700' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
         
         <style>
         .grid-item { width: 200px; }
@@ -19,62 +23,96 @@
 
     <body>
         <div class="header-logo">
-        <img src="kajubilogo.jpg" width="250" height="250">
+        <img src="pics/kajubilogo.jpg" width="200" height="200">
         </div>
-        
+    
+    <!--
         <nav>
         <a href="index.html">Home</a>
         <a>Baby</a>
         <a href="Toddler.html">Toddler</a>
         <a>Articles</a>
         <a>About</a>
-        </nav>
-        
-        <div class="container">
+        </nav>-->
+    
+    
+    <div class="container" style="margin-left:50px">
+            <ul class="nav nav-pills nav-justified font">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="baby.html">Baby</a></li>
+                <li><a href="toddler.html">Toddler</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+    
+            
         <div class="row" >
         <div class="item">
             <img src="pics/Tomat%20Isi%20Daging.jpg" width="300" height="400">
-                <p><strong>Tomat Isi Daging & Nasi</strong></p>
-                <p>Camilan sehat ini pas untuk menambah selera makan<br/>
-                    balita Anda. Jangan lupa sajikan hangat, ya.</p>
+                <h4><strong>Tomat Isi Daging & Nasi</strong></h4>
+                <p>Camilan sehat ini pas untuk menambah selera makan balita Anda.Jangan lupa sajikan hangat,ya.</p>
             </div>
         
         <div class="item">
-      
             <img src="pics/oatsausapel.jpg" width="300" height="450">
-                <p><strong>Oat Saus Apel</strong></p>
-                <p>Teksturnya mulai sedikit kasar, dan baik untuk<br/>diberikan bayi usia 8 bulan.</p>
+                <h4><strong>Oat Saus Apel</strong></h4>
+                <p>Teksturnya mulai sedikit kasar, dan baik untuk diberikan bayi usia 8 bulan.</p> 
+        </div>
+            
+        <div class="item">
+            <img src="pics/bubur%20ubi.jpg">
+                <h4><strong>Bubur Ubi Kuning</strong></h4>
+                <p>Ubi merupakan jenis makanan yang paling jarang menimbulkan alergi bagi bayi.</p>
+        </div>
         
+        <div class="item">
+        <div class="responsive-video">
+            <iframe src="video/mpasipisangmangg.mp4" width="280" height="300">
+            </iframe>
+            <h4><strong>Pure Pisang Mangga</strong></h4>
+            <p>Buah pisang campur mangga memberikan energi dan mengoptimalkan kemampuan makan bayi.</p>
         </div>
-            <div class="item">
-            <img src="pics/bubur%20ubi.jpg" width="350" height="400">
-                <p><strong>Bubur Ubi Kuning</strong></p>
-                <p>Ubi merupakan jenis makanan yang paling<br/>
-                jarang menimbulkan alergi bagi bayi.</p>
         </div>
+            
         <div class="item"> 
             <img src="pics/pancake%20kucing.jpg" width="350" height="200">
-                <p><strong>Pancake Kucing</strong></p>
-                <p>Bentuk yang lucu akan membuat anak semangat<br/>
-                makan. Mudah lagi membuatnya.</p>
+                <h4><strong>Pancake Kucing</strong></h4>
+                <p>Bentuk yang lucu akan membuat anak semangat makan. Mudah lagi membuatnya.</p>
         </div>
+        
         <div class="item"> 
             <img src="pics/alergisusu.jpg" width="350" height="200">
-                <p><strong>Anak Bisa Alergi Susu Sapi</strong></p>
-                <p>Apa yang harus dilakukan bila anak alergi<br/>
+                <h4><strong>Anak Bisa Alergi Susu Sapi</strong></h4>
+                <p>Apa yang harus dilakukan bila anak alergi
                 susu sapi?</p>
         </div>
+        
+         <div class="item">
+            <img src="pics/picsarticles/aturanmpasi.jpg" width="400" height="300">
+                <h4><strong>Aturan Mengolah Bahan MPASI yang Wajib Anda Tahu </strong></h4>
+                <p>Salah mengelola MPASI, maka kandungan nutrisi di dalam bahan makanan bisa hilang. Ketahui cara mengolahnya dengan tepat.</p>
+        </div>
         <div class="item"> 
-            <img src="pics/Pure%20Pir%20Kasar.jpg">
-                <p><strong>Pure Pir Kasar</strong></p>
-                <p>Jika sudah usia 8 bulan ke atas, biasakan<br/>
-                bayi untuk mulai makanan sedikit kasar.</p>
+            <img src="pics/Pure%20Pir%20Kasar.jpg" width="300px">
+                <h4><strong>Pure Pir Kasar</strong></h4>
+                <p>Jika sudah usia 8 bulan ke atas, biasakan bayi untuk mulai makanan sedikit kasar.</p>
+        </div>
+        
+        <div class="item">
+        <div class="responsive-video">
+            <iframe src="video/pisangbuahnaga.mp4" width="325" height="400">
+            </iframe>
+            <h4><strong>Pure Pisang Buah Naga</strong></h4>
+            <p>Jangan takut bereksperimen dengan buah yang tidak biasa. Asalkan Anda teliti dulu buah yang tidak sebabkan alergi</p>
         </div>
         </div>
+        
         </div>
+        </div>
+    
+
     </body>
-    <script src="library/masonry.pgkd.js"></script>
-        <script src="library/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
 </html>
 
 
